@@ -1,0 +1,15 @@
+{
+    "entryFile": "index.ts",
+    "controllerPathGlobs": ["controller.ts"],
+    "spec": {
+      "outputDirectory": ".",
+      "specVersion": 3
+    },
+    "routes": {
+      "noWriteIfUnchanged": true,
+      "routesDir": ".",
+      "middleware": "koa",
+      "esm": true
+    }
+  }
+  
